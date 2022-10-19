@@ -9,7 +9,7 @@ DuckStation now has its own cover downloader, upgrade to version **0.1-5227** or
 
 - Open DuckStation
 - Tools -> Cover Downloader
-- Use this url `https://github.com/LouiseSulyvahn/DuckStation_Cover_Downloader/raw/main/covers/${serial}.jpg`
+- Use this url `https://raw.githubusercontent.com/LouiseSulyvahn/DuckStation_Cover_Downloader/main/covers/${serial}.jpg`
 - Check "Use Serial Files Name"
 - Click Start
 - Enjoy :)

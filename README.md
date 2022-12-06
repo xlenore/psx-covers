@@ -6,15 +6,15 @@
 ## PSX Covers
 | Serial |  Available/Total |  Percentage  |
 | ------ |  --------------- |  ----------  |
-| SLPS | 3001/3146 | 95.39% |
-| SLPM | 1087/1571 | 69.19% |
-| SLES | 2225/2309 | 96.36% |
+| SLPS | 3010/3146 | 95.68% |
+| SLPM | 1095/1571 | 69.70% |
+| SLES | 2253/2309 | 97.57% |
 | SLUS | 1206/1310 | 92.06% |
 | LSP | 23/118 | 19.49% |
 | SCUS | 182/379 | 48.02% |
-| SCES | 578/615 | 93.98% |
+| SCES | 590/615 | 95.93% |
 | SIPS | 18/18 | 100.00% |
-| SCPS | 383/417 | 91.85% |
+| SCPS | 387/417 | 92.81% |
 | SLED | 0/223 | 0.00% |
 | PAPX | 1/59 | 1.69% |
 | PTPX | 0/1 | 0.00% |
@@ -34,7 +34,6 @@
 | SLKA | 2/3 | 66.67% |
 | PSRM | 0/1 | 0.00% |
 | HPS | 2/2 | 100.00% |
-
 
 ## Duckstation setup
 DuckStation has its own cover downloader, upgrade to version **0.1-5227** or higher.

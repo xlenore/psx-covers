@@ -23,9 +23,9 @@ from urllib.error import HTTPError
 from termcolor import colored
 from colorama import init
 import urllib.request
-import os, sys
+import os, sys, ssl
 
-
+ssl._create_default_https_context = ssl._create_unverified_context
 COVERS_URL = 'https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/'
 VERSION_URL = 'https://raw.githubusercontent.com/xlenore/psx-covers/main/DuckStation-cover-downloader/version'
 VERSION = 1.1
@@ -49,7 +49,7 @@ def check_version():
 
 
 def serial_list():  # Get game serial
-    with open(f'{path()}\cache\gamelist.cache', errors='ignore') as file:
+    with open(f'{path()}/cache/gamelist.cache', errors='ignore') as file:
         regex = re.compile('(\w{4}-\d{5})').findall(file.read())
         serial_list = list(dict.fromkeys(regex))
         print('[LOG]:', colored(f'Found {len(serial_list)} games', 'green'))
@@ -61,7 +61,7 @@ def serial_list():  # Get game serial
     
 
 def existing_covers():
-    covers = [w.replace('.jpg', '') for w in os.listdir(f'{path()}\covers')]
+    covers = [w.replace('.jpg', '') for w in os.listdir(f'{path()}/covers')]
     return covers
 
 

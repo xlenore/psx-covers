@@ -2,11 +2,31 @@
 
 ⚠️**Please report Not found | Low quality | Wrong covers**⚠️
 
-- [PSX Covers](https://github.com/xlenore/psx-covers#psx-covers "PSX Covers")
+- [Covers Stats](https://github.com/xlenore/psx-covers#covers-stats "Covers Stats")
+- [PSCoverDL App](https://github.com/xlenore/psx-covers#PSCoverDL)
 - [Duckstation Setup](https://github.com/xlenore/psx-covers#duckstation-setup "Duckstation Setup")
-- [Duckstation Cover Downloader](https://github.com/xlenore/psx-covers#duckstation-Cover-Downloader "Duckstation Setup")
 
-## PSX Covers
+## PSCoverDL
+
+[![](https://user-images.githubusercontent.com/57191159/275665605-4c4b3042-85e4-45b5-8f1b-48a6f00a93ea.png)](https://user-images.githubusercontent.com/57191159/275665605-4c4b3042-85e4-45b5-8f1b-48a6f00a93ea.png)
+
+Small tool to download PS1/PS2 covers for DuckStation and PCSX2.
+You can download it from here: [PSCoverDL](https://github.com/xlenore/pscoverdl "PSCoverDL")
+
+## Duckstation setup
+
+[![](https://i.imgur.com/8rD1P5C.gif)](https://i.imgur.com/FJWeE0e.gif)
+
+DuckStation has its own cover downloader, upgrade to version **0.1-5227** or higher.
+- Open DuckStation
+- Tools -> Cover Downloader
+- Use this URL `https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/${serial}.jpg` for default covers, or use `https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/3d/${serial}.png` for 3D covers.
+- Check "Use Serial Files Name"
+- Click Start
+- Enjoy :)
+
+## Covers Stats
+
 | Serial |  Available/Total |  Percentage  |
 | ------ |  --------------- |  ----------  |
 | SLPS | 3012/3146 | 95.74% |
@@ -37,27 +57,6 @@
 | SLKA | 2/3 | 66.67% |
 | PSRM | 0/1 | 0.00% |
 | HPS | 2/2 | 100.00% |
-
-## Duckstation setup
-DuckStation has its own cover downloader, upgrade to version **0.1-5227** or higher.
-- Open DuckStation
-- Tools -> Cover Downloader
-- Use this url `https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/${serial}.jpg`
-- Check "Use Serial Files Name"
-- Click Start
-- Enjoy :)
-
-[![](https://i.imgur.com/FJWeE0e.gif)](https://i.imgur.com/jTGL0HH.gif)
-
-## Duckstation Cover Downloader
-
-This is an alternative in case you don't want to be copying and pasting the repository url every time you want to download a cover.
-- Download [Duckstation Cover Downloader](https://github.com/xlenore/psx-covers/raw/main/DuckStation-cover-downloader/DuckStation%20cover%20downloader.exe) | ([Source Code](https://github.com/xlenore/psx-covers/raw/main/DuckStation-cover-downloader/DuckStation%20cover%20downloader.py))
-- Put **Duckstation Cover Downloader.exe** in **Documents\DuckStation** folder
-- Run the App every time you want to download covers
-- Enjoy :)
-
-[![](https://i.imgur.com/oRSsKZi.png)](https://i.imgur.com/oRSsKZi.png)
 
 ## Credits
 * psxdatacenter.com

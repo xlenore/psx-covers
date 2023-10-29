@@ -20,7 +20,7 @@ You can download it from here: [PSCoverDL](https://github.com/xlenore/pscoverdl 
 DuckStation has its own cover downloader, upgrade to version **0.1-5227** or higher.
 - Open DuckStation
 - Tools -> Cover Downloader
-- Use this URL `https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/${serial}.jpg` for default covers, or use `https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/3d/${serial}.png` for 3D covers.
+- Use this URL `https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/default/${serial}.jpg` for default covers, or use `https://raw.githubusercontent.com/xlenore/psx-covers/main/covers/3d/${serial}.png` for 3D covers.
 - Check "Use Serial Files Name"
 - Click Start
 - Enjoy :)

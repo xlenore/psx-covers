@@ -1690,7 +1690,6 @@ SLPS-86782  ---  Taiho Shichauzo! - You're Under Arrest
 SLPS-86780  ---  Taiho Shichauzo! - You're Under Arrest [Limited Edition]
 SLPM-80415  ---  Taiken Bandai Vol. 2 (Japan)
 SLPM-80305  ---  Taiken Bandai! Vol. 1 (Japan)
-SLPS-00457  ---  Taikyoku Igo - Shinzui Gosennin (Japan)
 SLUS-90060  ---  Tail Concerto (USA) (Demo)
 SLPM-80133  ---  Tales of Destiny (Japan) (Preview Edition by Namco)
 SLPM-80179  ---  Tales of Destiny (Japan) (Preview Edition) (Famitsuu Version)

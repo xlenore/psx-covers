@@ -1,8 +1,12 @@
+#Note: This tool still in WIP, needs an IA to calculate the best crop area.
+
+
 from pathlib import Path
 from PIL import Image
 from PIL import ImageOps
 
 TARGET_SIZE = (500, 500)
+IGNORE_LOWER_RESOLUTION = True
 
 def find_invalid_covers(covers_dir: Path, target_size: tuple) -> list:
     invalid = []
@@ -15,18 +19,25 @@ def find_invalid_covers(covers_dir: Path, target_size: tuple) -> list:
         try:
             with Image.open(p) as img:
                 if img.size != tuple(target_size):
-                    invalid.append(p.name)
+                    if IGNORE_LOWER_RESOLUTION and (img.width < target_size[0] or img.height < target_size[1]):
+                        continue
+                    invalid.append(p)
         except Exception:
-            invalid.append(p.name)
+            invalid.append(p)
     return invalid
 
-def update_cover_sizes(covers_dir: Path, target_size: tuple):
+def update_cover_sizes(covers_dir: Path, target_size: tuple, files: list = None):
     try:
         resample = Image.Resampling.LANCZOS
     except AttributeError:
         resample = Image.LANCZOS
 
-    for p in sorted(covers_dir.iterdir(), key=lambda x: x.name.lower()):
+    if files is None:
+        iterable = sorted(covers_dir.iterdir(), key=lambda x: x.name.lower())
+    else:
+        iterable = sorted(files, key=lambda x: x.name.lower())
+
+    for p in iterable:
         if not p.is_file():
             continue
         try:
@@ -74,7 +85,7 @@ def main():
             print(" -", n)
         print(f"Found {len(invalid_list)} images with size different from {TARGET_SIZE}:")
         input(f"Press Enter to update {len(invalid_list)} images to the correct size...")
-        update_cover_sizes(covers_dir, TARGET_SIZE)
+        update_cover_sizes(covers_dir, TARGET_SIZE, invalid_list)
 
     else:
         print(f"All images in {covers_dir} have size {TARGET_SIZE}.")

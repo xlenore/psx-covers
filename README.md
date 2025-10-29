@@ -38,7 +38,7 @@ DuckStation has its own cover downloader, upgrade to version **0.1-5227** or hig
 | ESPM | 3/7 | 42.86% |
 | HASH | 0/25 | 0.00% |
 | HPS | 2/2 | 100.00% |
-| LSP | 24/195 | 12.31% |
+| LSP | 61/195 | 31.28% |
 | PAPX | 3/68 | 4.41% |
 | PBPX | 0/11 | 0.00% |
 | PCPD | 0/1 | 0.00% |
@@ -49,20 +49,20 @@ DuckStation has its own cover downloader, upgrade to version **0.1-5227** or hig
 | PTPX | 0/1 | 0.00% |
 | PUPX | 0/2 | 0.00% |
 | SCAJ | 1/2 | 50.00% |
-| SCED | 0/354 | 0.00% |
+| SCED | 1/354 | 0.28% |
 | SCES | 591/616 | 95.94% |
 | SCPM | 0/4 | 0.00% |
-| SCPS | 397/518 | 76.64% |
-| SCUS | 182/391 | 46.55% |
+| SCPS | 398/518 | 76.83% |
+| SCUS | 185/391 | 47.31% |
 | SCZS | 0/6 | 0.00% |
 | SIPS | 18/20 | 90.00% |
-| SLED | 0/236 | 0.00% |
+| SLED | 1/236 | 0.42% |
 | SLES | 2261/2318 | 97.54% |
 | SLKA | 2/3 | 66.67% |
 | SLPM | 1118/1787 | 62.56% |
 | SLPS | 3083/3662 | 84.19% |
 | SLSA | 0/3 | 0.00% |
-| SLUS | 1214/1316 | 92.25% |
+| SLUS | 1215/1316 | 92.33% |
 | SPUS | 0/1 | 0.00% |
 
 ## Credits

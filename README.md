@@ -38,7 +38,7 @@ DuckStation has its own cover downloader, upgrade to version **0.1-5227** or hig
 | ESPM | 3/7 | 42.86% |
 | HASH | 0/25 | 0.00% |
 | HPS | 2/2 | 100.00% |
-| LSP | 61/195 | 31.28% |
+| LSP | 79/195 | 40.51% |
 | PAPX | 3/68 | 4.41% |
 | PBPX | 0/11 | 0.00% |
 | PCPD | 0/1 | 0.00% |
@@ -53,16 +53,16 @@ DuckStation has its own cover downloader, upgrade to version **0.1-5227** or hig
 | SCES | 591/616 | 95.94% |
 | SCPM | 0/4 | 0.00% |
 | SCPS | 398/518 | 76.83% |
-| SCUS | 185/391 | 47.31% |
+| SCUS | 188/391 | 48.08% |
 | SCZS | 0/6 | 0.00% |
 | SIPS | 18/20 | 90.00% |
 | SLED | 1/236 | 0.42% |
 | SLES | 2261/2318 | 97.54% |
-| SLKA | 2/3 | 66.67% |
+| SLKA | 3/3 | 100.00% |
 | SLPM | 1118/1787 | 62.56% |
 | SLPS | 3083/3662 | 84.19% |
 | SLSA | 0/3 | 0.00% |
-| SLUS | 1215/1316 | 92.33% |
+| SLUS | 1218/1316 | 92.55% |
 | SPUS | 0/1 | 0.00% |
 
 ## Credits

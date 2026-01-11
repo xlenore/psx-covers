@@ -13,7 +13,7 @@ import tkinter as tk
 
 SAVE_SIZE = (500, 500)
 SCRIPT_DIR = Path(__file__).resolve().parent
-SAVE_DIR = SCRIPT_DIR / "covers" / "default"
+SAVE_DIR = SCRIPT_DIR.parent / "covers" / "default"
 
 
 def compute_fingerprint_from_clipboard_raw(raw):

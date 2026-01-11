@@ -1,7 +1,5 @@
 *⭐**Star this repo if it was useful to you**⭐*
 
-⚠️**Please report Not found | Low quality | Wrong covers**⚠️
-
 - [Covers Stats](https://github.com/xlenore/psx-covers#covers-stats "Covers Stats")
 - [PSCoverDL App](https://github.com/xlenore/psx-covers#PSCoverDL)
 - [Duckstation Setup](https://github.com/xlenore/psx-covers#duckstation-setup "Duckstation Setup")
